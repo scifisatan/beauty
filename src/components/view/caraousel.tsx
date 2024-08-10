@@ -4,7 +4,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext
 export function Images() {
     return (
         <>
-            <section id="testimonials" className="bg-background py-20 sm:py-32">
+            <section id="gallery" className="bg-background py-20 sm:py-32">
                 <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="space-y-8 text-center">
                         <div>
