@@ -52,8 +52,12 @@ export function Images() {
                                     />
                                 </CarouselItem>
                             </CarouselContent>
-                            <CarouselPrevious />
-                            <CarouselNext />
+                            <div className="hidden sm:block">
+                                <CarouselPrevious />
+                            </div>
+                            <div className="hidden sm:block">
+                                <CarouselNext />
+                            </div>
                         </Carousel>
                     </div>
                 </div>
