@@ -11,8 +11,8 @@ export function Testimonials() {
                         <div className="rounded-lg bg-background p-6 shadow-sm">
                             <blockquote>
                                 <p className="text-muted-foreground">
-                                    "The team at Beauty Parlor is truly exceptional. They\n transformed my look and left me feeling
-                                    more confident\n than ever."
+                                    "The team at Beauty Parlor is truly exceptional. They transformed my look and left me feeling
+                                    more confident than ever."
                                 </p>
                                 <cite className="mt-4 block text-sm font-medium">- Jane Doe</cite>
                             </blockquote>
@@ -20,8 +20,8 @@ export function Testimonials() {
                         <div className="rounded-lg bg-background p-6 shadow-sm">
                             <blockquote>
                                 <p className="text-muted-foreground">
-                                    "I've been a loyal customer of Beauty Parlor for years.\n The level of service and attention to
-                                    detail is\n unparalleled."
+                                    "I've been a loyal customer of Beauty Parlor for years. The level of service and attention to
+                                    detail is unparalleled."
                                 </p>
                                 <cite className="mt-4 block text-sm font-medium">- John Smith</cite>
                             </blockquote>
@@ -29,8 +29,8 @@ export function Testimonials() {
                         <div className="rounded-lg bg-background p-6 shadow-sm">
                             <blockquote>
                                 <p className="text-muted-foreground">
-                                    "Beauty Parlor has become my go-to destination for all my\n beauty needs. The staff is incredibly
-                                    knowledgeable and\n makes the experience truly enjoyable."
+                                    "Beauty Parlor has become my go-to destination for all my beauty needs. The staff is incredibly
+                                    knowledgeable and makes the experience truly enjoyable."
                                 </p>
                                 <cite className="mt-4 block text-sm font-medium">- Sarah Lee</cite>
                             </blockquote>
