@@ -5,6 +5,7 @@ import { OurServices } from "@/components/view/services"
 import { Footer } from "@/components/view/footer"
 import { Images } from "@/components/view/caraousel"
 import { ContactUs } from "@/components/view/contactus"
+import { Courses } from "@/components/view/courses"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
         <Images />
         <OurServices />
+        <Courses />
         <Testimonials />
         <ContactUs />
       </main>
