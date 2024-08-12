@@ -8,7 +8,7 @@ export function Navbar() {
             <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
                 <Link href="#" className="flex items-center gap-2" prefetch={false}>
                     <ScissorsIcon className="h-6 w-6 text-primary" />
-                    <span className="text-lg font-semibold">Nail Hub & Hair Academyr</span>
+                    <span className="text-lg font-semibold">Nail Hub & Hair Academy</span>
                 </Link>
                 <nav className="hidden space-x-4 sm:flex">
                     <Link href="#home" className="text-sm font-medium hover:text-primary" prefetch={false}>
