@@ -15,7 +15,7 @@ export function Hero() {
                             skilled professionals transform your look and boost your confidence.
                         </p>
                         <Link
-                            href="#"
+                            href="https://maps.google.com/maps?ll=27.705891,85.334099&z=15&t=m&hl=en&gl=NP&mapclient=embed&cid=4338149510193484068"
                             className="inline-flex items-center justify-center rounded-md bg-background px-6 py-3 text-sm font-medium text-primary shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                             prefetch={false}
                         >

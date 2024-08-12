@@ -8,15 +8,9 @@ export function Footer() {
                 <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
                     <Link href="#home" className="flex items-center gap-2">
                         <ScissorsIcon className="h-6 w-6 text-primary-foreground" />
-                        <span className="text-sm text-primary-foreground font-semibold">Beauty Parlor</span>
+                        <span className="text-sm text-primary-foreground font-semibold">Nail Hub & Hair Academy</span>
                     </Link>
-                    <p className="text-sm text-primary-foreground">&copy; 2024 Beauty Parlor. All rights reserved.</p>
-                    <div className="flex items-center gap-4">
-                        <span className="text-primary-foreground  ">
-                            Privacy Policy
-                        </span>
-
-                    </div>
+                    <p className="text-sm text-primary-foreground">&copy; 2024 <Link href="http://github.com/scifisatan">by scifisatan</Link></p>
                 </div>
             </div>
         </footer>
