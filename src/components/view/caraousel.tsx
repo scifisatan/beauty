@@ -1,5 +1,5 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel"
-
+import Image from "next/image"
 
 export function Images() {
     return (
@@ -9,14 +9,12 @@ export function Images() {
                     <div className="space-y-8 text-center">
                         <div>
                             <h2 className="text-3xl font-bold sm:text-4xl">Gallery</h2>
-
                         </div>
                         <Carousel className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-
                             <CarouselContent>
                                 <CarouselItem>
                                     <img
-                                        src="/1.jpg"
+                                        src="./1.webp"
                                         width={800}
 
                                         height={400}
@@ -26,32 +24,14 @@ export function Images() {
                                 </CarouselItem>
                                 <CarouselItem>
                                     <img
-                                        src="/2.jpg"
+                                        src="./3.webp"
                                         width={800}
                                         height={400}
                                         alt="Carousel Image 2"
                                         className="aspect-[2/1] rounded-lg object-cover mx-auto"
                                     />
                                 </CarouselItem>
-                                <CarouselItem>
-                                    <img
-                                        src="/3.jpg"
-                                        width={800}
-                                        height={400}
-                                        alt="Carousel Image 3"
-                                        className="aspect-[2/1] rounded-lg object-cover mx-auto"
-                                    />
-                                </CarouselItem>
-                                <CarouselItem>
-                                    <img
-                                        src="/4.jpg"
-                                        width={800}
-                                        height={400}
-                                        alt="Carousel Image 3"
-                                        className="aspect-[2/1] rounded-lg object-cover mx-auto"
-                                    />
-                                </CarouselItem>
-                            </CarouselContent>
+                           </CarouselContent>
                             <div className="hidden sm:block">
                                 <CarouselPrevious />
                             </div>
@@ -61,7 +41,6 @@ export function Images() {
                         </Carousel>
                     </div>
                 </div>
-
             </section>
         </>
     )
