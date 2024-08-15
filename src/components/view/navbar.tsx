@@ -20,9 +20,9 @@ export function Navbar() {
                     <Link href="#services" className="text-sm font-medium hover:text-primary" prefetch={false}>
                         Services
                     </Link>
-                    <Link href="#testimonials" className="text-sm font-medium hover:text-primary" prefetch={false}>
+                    {/* <Link href="#testimonials" className="text-sm font-medium hover:text-primary" prefetch={false}>
                         Testimonials
-                    </Link>
+                    </Link> */}
                     <Link href="#contact" className="text-sm font-medium hover:text-primary" prefetch={false}>
                         Contact
                     </Link>
@@ -48,9 +48,9 @@ export function Navbar() {
                             <Link href="#services" className="text-sm font-medium hover:text-primary" prefetch={false}>
                                 Services
                             </Link>
-                            <Link href="#testimonials" className="text-sm font-medium hover:text-primary" prefetch={false}>
+                            {/* <Link href="#testimonials" className="text-sm font-medium hover:text-primary" prefetch={false}>
                                 Testimonials
-                            </Link>
+                            </Link> */}
                             <Link href="#contact" className="text-sm font-medium hover:text-primary" prefetch={false}>
                                 Contact
                             </Link>
