@@ -307,8 +307,6 @@ export function WandIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement
         </svg>
     )
 }
-
-
 export function YoutubeIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
     return (
         <svg
