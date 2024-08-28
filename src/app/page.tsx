@@ -1,4 +1,3 @@
-import { Testimonials } from "@/components/view/testimonials"
 import { Navbar } from "@/components/view/navbar"
 import { Hero } from "@/components/view/hero"
 import { OurServices } from "@/components/view/services"
